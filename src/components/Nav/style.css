@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+.nav {
+    color: white;
+    background-color: rgb(18, 18, 18);
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 20px 0 30px 0;
+}
+
+.nav .content, .menu {
+    justify-content: space-between;
+}
+
+.nav .content {
+    height: 16px;
+}
+
+.menu {
+    height: 16px;
+}
+
+.menu-choice {
+    padding: 1px 5px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin: auto 20px;
+    white-space: nowrap;
+}
+
+.menu-choice:hover, .menu-choice.active {
+    background-color: white;
+    color: rgb(18, 18, 18);
+}
+
+.menu-choice:hover {
+    cursor: pointer;
+}
+
+.menu-choice.soon:hover {
+    cursor: not-allowed;
+}
+
+.soon {
+    color: red;
+}
+
+.soon::before {
+    content: '.';
+}
+
+.soon-tag {
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space:pre-wrap;
+    max-width: 40px;
+    text-align: center;
+    color: white;
+}
+
+.menu-choice:hover > .soon-tag {
+    animation: wobble 1s infinite;
+}
+
+@keyframes wobble {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    15% {
+      transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -2.5deg);
+    }
+  
+    30% {
+      transform: translate3d(7%, 0, 0) rotate3d(0, 0, 1, 1.5deg);
+    }
+  
+    45% {
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1.5deg);
+    }
+  
+    60% {
+      transform: translate3d(2.5%, 0, 0) rotate3d(0, 0, 1, 1deg);
+    }
+  
+    75% {
+      transform: translate3d(-2.5%, 0, 0) rotate3d(0, 0, 1, -0.5deg);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@media (max-width: 650px) {
+    .nav .content {
+        height: 60px;
+        flex-flow: row wrap;
+    }
+
+    .nav {
+        padding-bottom: 40px;
+    }
+
+    .menu {
+        width: 100%;
+        margin: 0  0 30px 0;
+        order: -1;
+        justify-content: space-evenly;
+    }
+}

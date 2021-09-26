@@ -1,0 +1,59 @@
+{
+  "available_in": ["es", "en"],
+  "languageNames": {"es": "español", "en": "English"},
+  "default_to": "en",
+  "greeting": {
+    "es": "¡hola, soy",
+    "en": "hello, it's"
+  },
+  "messages": [
+    {
+      "en": "I'm a software developer based in Spain <span class='dancer'>💃</span>, bringing 3+ years of experience in the fields of Data Engineering and Back-end Development",
+      "es": "Soy desarrollador de software y de España <span class='dancer'>💃</span>, aporto más de 3 años de experiencia en el mundo de la ingeniería de datos y desarrollo back-end"
+    },
+    {
+      "es": "mi herramienta de trabajo es Python, pero sin olvidar SQL y Google Cloud BigQuery. Y sí, como sugiere esta web, utilizo Linux. Soy muy adepto al minimalismo (keep-it-simple-stupid) en el software y fan de Flask, pero también poseo experiencia con NodeJS y Django",
+      "en": "my main working tool is Python, without forgetting SQL and Google Cloud's BigQuery. And, yes, as this website design suggests, I use Linux. I'm a huge fan of minimalism (KISS!) in software and a huge fan of Flask, but I have experience with NodeJS and Django behind as well"
+    },
+    {
+      "en": "I like to think of myself as a front-end developer for the sake of it, for the fun. After all, it's the place where esthetics and the logical world of coding overlap! I work to get better every day and help others, as a volunteer at <a href='https://madridforrefugees.org/en/the-organisation/mfr-coding/'>Refugees Code</a>",
+      "es": "me considero desarrollador front-end por amor el arte, por diversión. Después de todo, es el punto donde intersectan la estética y el mundo lógico de la programación. Trato de mejorar cada día y ayudar a los demás, como voluntario en <a href='https://madridforrefugees.org/en/the-organisation/mfr-coding/'>Refugees Code</a>"
+    },
+    {
+      "en": "another one of my passions lies in machine learning is my other passion, and I'm a proud fellow of <a href='https://saturdays.ai/'>AI Saturdays</a>, where I developed my proudest project <a href='https://github.com/GANs-N-Roses/deploy'>GANs & Roses</a>, a pipeline enabling the visually impaired to feel plastic art through music.",
+      "es": "otra de mis pasiones yace en el machine learning, y soy miembro de <a href='https://saturdays.ai/'>AI Saturdays</a>, donde desarrollé el proyecto del que estoy más orgulloso, <a href='https://github.com/GANs-N-Roses/deploy'>GANs & Roses</a>, un sistema para que las personas con discapacidad visual puedan sentir el arte plástica a través de la música."
+    }
+  ],
+  "contact-me": {
+    "es": "me encanta tener nuevas fuentes de inspiración y desafíos, así que si decides utilizar alguno de los medios de más abajo para contactarme, estaré más que encantado",
+    "en": "I'm always looking for new sources of inspiration and challenges, so I'd be more than happy if you used one of the means below to reach out to me!"
+  },
+  "about": {
+    "es": "quién soy",
+    "en": "about"
+  },
+  "blog": {
+    "es": "blog",
+    "en": "blog"
+  },
+  "contact": {
+    "es": "contacto",
+    "en": "contact"
+  },
+  "you": {
+    "es": "tu",
+    "en": "you"
+  },
+  "switchLanguage": {
+    "es": "switch to",
+    "en": "cambiar a"
+  },
+  "downloadCV": {
+    "es": "descarga mi CV",
+    "en": "download my CV"
+  },
+  "comingSoon": {
+    "es": "muy pronto",
+    "en": "coming soon"
+  }
+}

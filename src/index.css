@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  position: relative;
+  padding-bottom: 60px;
+  min-height: calc(100vh - 60px);
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.emphasize, .contact div a:hover, .message a:hover {
+  text-shadow: 2px 2px 2px #ECFF00;
+}
+
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.about-img {
+  width: 100px;
+  max-width: 10%;
+  height: 100%;
+  border-radius: 100%;
+  margin: 0 30px;
+}
+
+.messages {
+  width: 100%;
+  text-align: left;
+}
+
+.message {
+  border-left: 4px solid #00000066;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px 10px;
+  text-align: justify;
+}
+
+.message:first-of-type {
+  margin-top: 0;
+}
+
+.contact {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.contact div a {
+  color: black;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px 0;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+footer > span:first-child {
+  margin-left: 20px;
+}
+
+footer > span:last-child {
+  margin-right: 20px;
+}
+
+.flag-gradient.en {
+  background: linear-gradient(to right, #ffffff 0%, #0043d9 50%, #C8102E 60%, #ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.flag-gradient.es {
+  background: linear-gradient(to right, #EF3340 0%, #FFD100 50%, #EF3340 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(18, 18, 18);
+}
+
+.button-ico {
+  margin-left: 10px;
+}
+
+.dancer {
+  display: inline-block;
+  animation: dance 20s linear 0s infinite normal;
+}
+
+@keyframes dance {
+  0% { 
+      -webkit-transform:rotateY(0deg);
+      -moz-transform:rotateY(0deg);
+      -o-transform:rotateY(0deg);
+      -ms-transform:rotateY(0deg);
+   }
+   100% {
+      -webkit-transform:rotateY(1800deg);
+      -moz-transform:rotateY(180deg);
+      -o-transform:rotateY(1800deg);
+      -ms-transform:rotateY(180deg);
+   }
+}
+
+@media (max-width: 650px) {
+  .about-img {
+    margin: 0 auto;
+    max-width: 25%;
+    margin-bottom: 25px;
+  }
+
+  .about {
+    padding: 25px 0;
+    flex-flow: row wrap;
+  }
+
+  .contact {
+    flex-flow: row wrap;
+  }
+
+  .contact div {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  footer {
+    position: fixed;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  footer > span, footer > a {
+    margin: auto;
+  }
+
+  footer > span:first-child, footer > a:first-child {
+    display: block;
+    width: 100%;
+    text-align: center;
+    order: 3;
+  }
+
+  footer > span:not(:first-child), footer > a:not(:first-child) {
+    text-align: center;
+    width: 40%;
+    margin: 0 10px 15px 10px;
+  }
+
+  .button-ico {
+    display: block;
+    margin-left: auto;
+  }
+
+  .flag-gradient {
+    text-align: left;
+  }
+}

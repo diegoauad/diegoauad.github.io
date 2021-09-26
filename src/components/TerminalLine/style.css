@@ -1,0 +1,110 @@
+.terminal-line {
+    width: 100%;
+    padding-left: 5px;
+}
+
+.terminal-crumb {
+    position: relative;
+    display: inline-block;
+    height: 0;
+    border-left: 8px solid black;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    padding: 0 8px;
+}
+
+.terminal-text {
+    position: relative;
+    top: -8.2px;
+}
+
+.master {
+    color: rgb(46, 52, 47);
+    background-color: rgb(78, 154, 6);
+    border-left-color: rgb(52, 101, 164);
+}
+
+.master i {
+    font-size: 0.8rem;
+    margin-right: 7px;
+}
+
+.path {
+    color: white;
+    background-color: rgb(52, 101, 164);
+    border-left-color: rgb(46, 52, 54);
+}
+
+.user {
+    color: rgb(196, 160, 14);
+    background-color: rgb(46, 52, 54);
+}
+
+.last {
+    border-left-color: rgb(78, 154, 6);
+    padding: 0;
+}
+
+.cursor {
+    font-size: 12px;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-ms-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-o-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+/* @media (max-width: 650px) {
+    .user {
+        display: none;
+    }
+
+    .path {
+        border-left-color: rgb(18, 18, 18);
+    }
+} */

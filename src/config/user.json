@@ -1,0 +1,23 @@
+{
+  "name": "Diego",
+  "fullName": "Diego Martín Auad",
+  "contact": [
+    {
+      "link": "https://github.com/diegoauad",
+      "icon": "fab fa-github",
+      "display": "@diegoauad"
+    },
+    {
+      "link": "https://www.linkedin.com/in/diegomartinauad/",
+      "icon": "fab fa-linkedin",
+      "display": "@diegomartinauad"
+    },
+    {
+      "link": "mailto:dmartinauad@gmail.com",
+      "icon": "fas fa-at",
+      "display": "dmartinauad@gmail.com"
+    }
+  ],
+  "cv": "https://github.com/diegoauad/resume/raw/db67ff26506da6415244d447cff81cd77c6790f5/Diego_Martin_Auad_CV.pdf",
+  "cvDisplay": "https://github.com/diegoauad/resume/raw/db67ff/Diego_Martin_Auad_CV.pdf"
+}
